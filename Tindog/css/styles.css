@@ -1,0 +1,183 @@
+
+#title{
+    background-color: #ff4c68;
+}
+
+body{
+    position: relative;
+    z-index: 1;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+   font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+}
+
+/* Navigation bar */
+
+.container-fluid{
+    padding: 0% 15%;
+}
+
+.container{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.navbar{
+color:white;
+padding-bottom: 0rem;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: white;
+}
+
+.nav-item{
+padding: 0px 20px;
+}
+
+.nav-link{
+    font-family: 'Ubuntu', sans-serif;
+    opacity: 0.4;
+}
+
+/* Download buttons */
+
+.download_button{
+    margin-right: 10px;
+    margin-top: 40px;
+}
+
+/* Title_image */
+
+.title_image{
+width: 24%;
+transform: rotate(21deg);
+position: absolute;
+z-index: 0;
+right:12rem;
+}
+/* feature section */
+
+#features{
+    padding:7% 14%;
+    background-color: white;
+   position: relative;
+   z-index: 1;
+}
+
+.feature-col{
+    text-align: center;
+}
+
+.topic{
+    font-family: 'Ubuntu', sans-serif;
+   font-weight: bolder;
+   padding-top: 1.2rem;
+}
+
+.text{
+    margin: 0% 5%;
+    color: #8f8f8f;
+}
+
+.icon{
+    color: #ef8172;
+}
+
+.icon:hover{
+    color:#ff4c68;
+}
+
+
+/* Testimonials */
+
+#testimonials{
+    text-align: center;
+    color:white;
+    background-color:#ff4c68 ;
+    padding-top: 80px;
+
+}
+
+.testimonial_text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+}
+
+.testimonial_image{
+    border-radius: 100%;
+    width: 15%;
+    margin-top: 1rem;
+}
+
+/* Press section */
+
+#press{
+    background-color:#ff4c68 ;
+    padding:3.8rem 3.5rem 3rem 3.5rem;
+    text-align: center;
+}
+
+.press_img{
+    width: 23%;
+    padding:0px 30px;
+}
+
+.carousel-item{
+    background-color: #ff4c68;
+    padding: 0% 14% 10% 14%;
+}
+
+/* Pricing section */
+
+#pricing{
+    padding: 5rem 2rem 0rem 2rem;
+    text-align: center;
+}
+
+.row{
+    padding:5rem;
+}
+
+.price_item{
+    padding:2rem 2rem;
+}
+
+@media(max-width:1200px)
+{
+    #title{
+        text-align: center;
+    }
+    .title_image{
+        position: static;
+        transform: rotate(0deg);
+        width: 50%;
+        padding-top: 2rem;
+        }
+        
+}
+
+/* Cta section */
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 2.2rem;
+}
+
+/* footer section */
+
+#footer{
+    text-align: center;
+    padding: 7% 14%;
+}
+
+.footer_icon{
+    padding:0rem 1.5rem 1.5rem 1.5rem;
+}
